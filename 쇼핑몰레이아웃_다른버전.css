@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;
+    box-sizing: border-box;}
+  a{text-decoration: none; }
+  ul{list-style: none;}
+
+
+  #gnb{width: 100%; 
+      height: 50px;
+      background-color:white);}
+  #gnb ul {width: 1500px; 
+          margin: 0 auto;
+          overflow: hidden;}
+  #gnb a{color: rgb(207, 98, 58);
+         float: right;
+         width: 150px;
+         line-height: 50px;
+         font-size: 1.3em;
+         text-align: center }
+
+
+  #logo{width: 400px; height: 200px;
+       margin: 50px auto;
+       border: 1px solid #808080;
+       text-align:center;
+       line-height:200px;}
+ 
+
+
+ .navi{
+      width: 100%; 
+      height: 70px;
+      background-color: rgb(104,137,50);}
+
+ .navi li {
+    width:  100%;
+    margin: 0 auto;
+}
+          
+          /* 메인 메뉴 링크 스타일 */
+ .navi li a {
+    color:white;
+    float: left;
+    width: 300px;
+    line-height: 70px;
+    font-size: 1.3em;
+    text-align:center;
+}  
+          
+          
+          /* 현재 선택된 링크 스타일과 마우스 오버 상태일 때 링크 스타일 */
+ .navi li:hover > a  {color: #fff; /*글자색 */
+                     background: rgb(207, 98, 58) }
+          
+          /* 서브 메뉴 스타일 */
+ .navi  ul {display: none;}
+          
+           /* 메인 메뉴 위에 마우스 오버한 후 나타나는 서브 메뉴 스타일 */
+ .navi li:hover > ul {
+            position: absolute;  /* 고정 위치 포지셔닝 */
+            display: block;  /* 영역 확보 */
+            width: 100%; /* 너비 */
+            height: 70px; /* 높이 */
+            margin: 40px 0 0 0;  /* 여백 */}
+          
+          /* 메인 메뉴 항목에 마우스 오버한 후 나타나는 서브 메뉴 항목의 링크 스타일 */
+ .navi li:hover > ul li a { 
+            float: left; /* 왼쪽으로 플로팅 */
+            font-size: 1.3em;
+            line-height: 70px; /* 줄간격 */
+            color: #fff; /* 글자색 */
+            margin-top: 30px;
+            background:rgb(158, 183, 93);
+            width: 200px;
+        }
+         
+ .navi li:hover > ul li a:hover {color: #cf5d3a;}
+
+
+ #box{
+    width: 100px; 
+    height: 100px;
+    position: fixed; 
+    right: 0; 
+    bottom: 8%;
+    background-color:#cf5d3a;
+    text-align: center;
+    line-height: 100px;}
+          
+  #contents{clear: both;
+            width: 100%;
+            padding: 30px;}          
+  #contents section:first-of-type {
+      width: 100%; 
+      margin: 0px auto;}             
+  #contents section:first-child article:first-child{
+      width: 100%; 
+      height: 600px;
+      border: 1px solid #808080;
+      text-align:center;
+      line-height:600px;}           
+ 
+  
+  .hit_product{width:1250px; 
+               margin: 0 auto; }
+  .hit_product div{
+                  width:620px; 
+                  height: 400px;
+                  float:left;
+                  margin-top: 50px;
+                  border: 1px solid #808080;
+                  text-align:center;
+                  line-height:400px;}
+  .hit_product div:nth-child(1){
+      margin-right: 10px;
+      margin-bottom: 10px;}         
+  .hit_product div:nth-child(2){
+      margin-bottom: 10px;}
+  
+
+    #text{width:100%; 
+        height: 40px;
+        float: left;
+        font: bold 20px ;
+        text-align:center;
+        line-height:40px;
+        margin: 0 auto;
+        margin-right: 10px;
+        margin-bottom: 60px;}
+   
+ 
+h2{color:#cf5d3a;
+    font: bold 20px ;
+    line-height: 45px;}
+    
+.mo_product{clear: both;
+            width:1250px; 
+            margin: 10px auto;}
+
+.mo_product div{
+                width:1250px; 
+                height: 400px;
+                float: left;
+                margin-bottom: 50px;
+                border: 1px solid #808080;
+                text-align:center;
+                line-height:400px;}
+.mo_product div:nth-child(1){
+    margin-right: 10px;
+    margin-bottom: 10px;}         
+
+
+      
+  .md_product{clear: both;
+              width:1250px; 
+              margin: 10px auto;}
+  .md_product div{
+                  width:305px; 
+                  height: 400px;
+                  float: left;
+                  border: 1px solid #808080;
+                  text-align:center;
+                  line-height:400px;}
+  .md_product div:nth-child(1){
+      margin-right: 10px;
+      margin-bottom: 10px;}         
+  .md_product div:nth-child(2){
+      margin-right: 10px;
+      margin-bottom: 10px;}
+  .md_product div:nth-child(3){
+      margin-right: 10px;
+      margin-bottom: 10px;}
+  .md_product div:nth-child(4){
+      margin-bottom: 10px;
+      }    
+
+      
+  footer{clear: both;}
+
+  #copyright {clear: both;
+             width: 100%;
+             height: 150px;
+             background-color: rgb(104,137,50);
+             color: white;
+             font-size: 1.5em;
+             text-align: center;
+             line-height: 150px;}
